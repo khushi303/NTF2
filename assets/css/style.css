@@ -21,7 +21,7 @@
     font-family: 'poppins', sans-serif;
 }
 
-.link:focus {
+.link:hover {
     color: #000;
 }
 
