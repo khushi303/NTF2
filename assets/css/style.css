@@ -25,16 +25,6 @@
     color: #000;
 }
 
-.fs-36 {
-    font-size: 36px;
-}
-
-
-
-.fs-24 {
-    font-size: 24px;
-}
-
 .fs-lorem {
     font-size: var(--fs-lorem);
 }
