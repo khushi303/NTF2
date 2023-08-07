@@ -1,0 +1,37 @@
+:root {
+    --fs-lorem: 24px;
+    --fs-ntf: 18px;
+    --fs-no: 18px;
+    --fs-sm: 12px;
+    --fs-fol: 10px;
+    --mw-logo: 32px;
+    --h-nav: 67px;
+    --w-edit: 100px;
+    --h-edit: 28px;
+    --w-dm: 25px;
+    --h-dm: 15px;
+    --w-ball: 10px;
+    --h-ball: 10px;
+    --user-hw: 24px;
+    --p-sm: 10px;
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-lorem: 36px;
+        --fs-ntf: 36px;
+        --fs-no: 24px;
+        --fs-sm: 18px;
+        --fs-fol: 14px;
+        --mw-logo: 60px;
+        --h-nav: 95px;
+        --w-edit: 144px;
+        --h-edit: 43px;
+        --w-dm: 40px;
+        --h-dm: 23px;
+        --w-ball: 19px;
+        --h-ball: 19px;
+        --user-hw: 32px;
+        --p-sm: 30px;
+    }
+}
