@@ -13,7 +13,7 @@
     --w-ball: 10px;
     --h-ball: 10px;
     --user-hw: 24px;
-    --p-sm: 10px;
+    --p-sm: 7px;
 }
 
 @media (min-width:576px) {

@@ -11,10 +11,6 @@
 
 .container {
     max-width: 1320px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 12px !important;
-    padding-right: 12px !important;
 }
 
 .ff-poppins {
@@ -122,6 +118,14 @@ input::placeholder {
     margin-bottom: 4px;
 }
 
+.mw-34 {
+    max-width: 34px !important;
+}
+
+/* .mh-40 {
+    max-height: 40px !important;
+} */
+
 .pb-54 {
     padding-bottom: 54px;
 }
@@ -134,8 +138,6 @@ input::placeholder {
     background-image: url(/assets/images/bg-img.png), linear-gradient(to bottom, #F8F8F8 50%, #F8F8F8 100%);
     object-fit: cover;
     background-repeat: no-repeat;
-    /* background-size: contain; */
-    /* background-attachment: fixed; */
     background-position: top;
     width: 100%;
 }
@@ -147,9 +149,8 @@ body {
 .pro-box {
     border-radius: 30px;
     background: #FFF;
-    /* box-shadow: 0px 38px 85px -19px rgba(0, 0, 0, 0.10); */
     border: none;
-    padding: 30px;
+    padding: 20px;
 }
 
 .pro-box:hover {
@@ -394,20 +395,18 @@ body {
     --bs-modal-width: 1320px !important;
     --bs-modal-margin: 0 !important;
     --bs-modal-border-radius: none !important;
-    /* display: flex !important;
-    justify-content: center !important;
-    align-items: center !important; */
-    min-height: 100vh !important;
-    /* padding: 30px 12px !important; */
 }
 
 .modal-body {
-    padding: 24px 12px !important;
+    padding: 24px 24px !important;
+    margin-top: -35px !important;
 }
 
 .modal-dialog {
     width: 100% !important;
-    top: 7% !important;
+    /* top: 7% !important;
+    bottom: 3% !important; */
+    padding: 20px !important;
 }
 
 .pos-absol1 {
@@ -428,8 +427,8 @@ body {
     background: #FFF !important;
     float: right !important;
     position: relative !important;
-    right: -32px !important;
-    top: -44px !important;
+    right: -33px !important;
+    top: -9px !important;
     width: 40px;
     height: 40px;
     display: flex;
@@ -453,8 +452,7 @@ body {
 }
 
 .px-10 {
-    /* padding-left: 10px; */
-    padding-right: 20px;
+    margin-left: -12px;
 }
 
 .absolute {
@@ -500,6 +498,12 @@ body {
 @media (min-width:768px) {
     .mw-md-460 {
         max-width: 460px;
+    }
+}
+
+@media (min-width:992px) {
+    .px-10 {
+        padding-right: 10px;
     }
 }
 
@@ -566,7 +570,7 @@ body {
         position: fixed;
         left: 0;
         right: 0;
-        z-index: 1;
+        z-index: 2;
         background: white;
         box-shadow: 0px 8px 35px 0px #0000000D;
     }
